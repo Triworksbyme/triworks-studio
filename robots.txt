@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://triworks-studio.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Allow search engines to index all content
+Allow: /assets/
+Allow: /images/
+Allow: /*.css
+Allow: /*.js
+
+# Block admin or private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
